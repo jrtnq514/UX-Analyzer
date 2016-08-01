@@ -1,0 +1,10 @@
+extends layout
+
+block content
+
+  div.header
+      div.title UX Analyzer
+  div.main-content
+      span Enter URL to analyze
+      input(type= 'text')#url
+      button(type= 'submit' onclick= 'submitUrl()') Analyze
